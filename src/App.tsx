@@ -10,7 +10,7 @@ type ProdutoType = {
 }
 type UsuarioType = {
   id:number,
-  nome:string,
+  name:string,
   email:string,
   created_at:string,
   updated_at:string 
@@ -56,7 +56,7 @@ function App() {
         usuarios.map(prod=>{
           return(
             <div key={prod.id} className='usuario-item'>
-              <h1>{prod.nome}</h1>
+              <h1>{prod.name}</h1>
               <p>{prod.email}</p>
               <p>{prod.created_at}</p>
               <p>{prod.updated_at}</p>
