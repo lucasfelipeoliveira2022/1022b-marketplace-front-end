@@ -50,17 +50,18 @@ function App() {
         })
       }
        </div>
+
        <div className='container-usuarios'>
       {
-        usuarios.map(user=>{
+        usuarios.map(prod=>{
           return(
-            <div key={user.id} className='usuario-item'>
-              <h3>
-                {user.nome}
-              </h3>
-              <p>{user.email}</p>
-              <p>{user.created_at}</p>
-              <p>{user.updated_at}</p>
+            <div key={prod.id} className='usuario-item'>
+              <h1>
+                {prod.nome}
+              </h1>
+              <p>{prod.email}</p>
+              <p>{prod.created_at}</p>
+              <p>{prod.updated_at}</p>
             </div>
           )
         })
