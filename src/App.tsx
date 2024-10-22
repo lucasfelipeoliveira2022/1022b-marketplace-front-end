@@ -12,8 +12,8 @@ type UsuarioType = {
   id:number,
   name:string,
   email:string,
-  create_at:string,
-  updated:string 
+  created_at:string,
+  updated_at:string 
 }
 function App() {
   const [produtos, setProdutos] = useState<ProdutoType[]> ([])
@@ -57,8 +57,8 @@ function App() {
             <div key={user.id} className='usuario-item'>
               <h1>{user.name}</h1>
               <p>{user.email}</p>
-              <p>{user.create_at}</p>
-              <p>{user.updated}</p>
+              <p>{user.created_at}</p>
+              <p>{user.updated_at}</p>
             </div>
           )
         })
