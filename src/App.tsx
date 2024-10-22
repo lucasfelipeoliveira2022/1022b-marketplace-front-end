@@ -21,12 +21,12 @@ function App() {
 
 //useEffect(oque fazer e quando fazer)
   useEffect(()=>{
-    fetch("https://one022b-marketplace-6ac4.onrender.com/produtos")
+    fetch("https://one022b-marketplace-wotq.onrender.com/produtos")
     .then(resposta=>resposta.json())
     .then(dados=>setProdutos(dados))
   },[])
   useEffect(()=>{
-    fetch("https://one022b-marketplace-6ac4.onrender.com/usuarios")
+    fetch("https://one022b-marketplace-wotq.onrender.com/usuarios")
     .then(resposta=>resposta.json())
     .then(dados=>setUsuarios(dados))
   },[])
