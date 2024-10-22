@@ -42,10 +42,10 @@ function App() {
               <h1>
                 {prod.nome}
               </h1>
-              <img src='{prod.imagem}' alt='Imagem do Produto'/>
+              <img src={prod.imagem} alt='Imagem do Produto'/>
               <p>{prod.preco}</p>
               <p>{prod.descricao}</p>
-            </div>
+            </div> 
           )
         })
       }
