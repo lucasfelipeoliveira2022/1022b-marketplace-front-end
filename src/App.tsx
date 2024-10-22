@@ -52,8 +52,7 @@ function App() {
        </div>
 
        <div className='container-usuarios'>
-      {
-        usuarios.map(user=>{
+      {usuarios.map(user=>{
           return(
             <div key={user.id} className='usuario-item'>
               <h1>{user.name}</h1>
