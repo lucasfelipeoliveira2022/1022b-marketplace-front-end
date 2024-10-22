@@ -55,9 +55,9 @@ function App() {
         usuarios.map(user=>{
           return(
             <div key={user.id} className='usuario-item'>
-              <h1>
+              <h3>
                 {user.nome}
-              </h1>
+              </h3>
               <p>{user.email}</p>
               <p>{user.created_at}</p>
               <p>{user.updated_at}</p>
