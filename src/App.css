@@ -12,6 +12,7 @@
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  align-items: center;
   margin-top: 20px;
 }
 
@@ -37,6 +38,7 @@
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  align-items: center;
 }
 
 .usuario-item {
